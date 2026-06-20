@@ -15,20 +15,20 @@
 // ============================================================
 //  >>>  WIFI CREDENTIALS  <
 // ============================================================
-const char* ssid          = "orange-Wagdy";
-const char* wifi_password = "bola2023";
+const char* ssid          = "YOUR_WIFI_SSID";
+const char* wifi_password = "YOUR_WIFI_PASSWORD";
 
 // ============================================================
 //  >>>  HUAWEI IoTDA CREDENTIALS (from Download file)  <
 // ============================================================
-#define MQTT_SERVER   "d95ed4fe87.st1.iotda-device.me-east-1.myhuaweicloud.com"
+#define MQTT_SERVER   "YOUR_IOTDA_ENDPOINT"
 #define MQTT_PORT     8883
 
-#define MQTT_USERNAME "69eb976b0ee8e95e280b627a_hid_bbj2xl_ypp1s1eq"
-#define MQTT_PASSWORD "5afcdb4347ae481d44da77e1bd315a2123b2097be02aaf60aedb8dcf16454658"
-#define MQTT_CLIENTID "69eb976b0ee8e95e280b627a_hid_bbj2xl_ypp1s1eq_0_0_2026042709"
+#define MQTT_USERNAME "YOUR_DEVICE_ID_SECRET"
+#define MQTT_PASSWORD "YOUR_DEVICE_PASSWORD"
+#define MQTT_CLIENTID "YOUR_CLIENT_ID"
 
-#define DEVICE_ID     "69eb976b0ee8e95e280b627a_hid_bbj2xl_ypp1s1eq"
+#define DEVICE_ID     "YOUR_DEVICE_ID"
 #define SERVICE_ID    "parking"
 
 // ============================================================
